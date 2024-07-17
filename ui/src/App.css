@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/********************/
+.card-shadow {
+  width: 20%;
+  height: 40%;
+  background-color: #171717;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* App.css */
+.card-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-item {
+  flex: 1 1 calc(25% - 16px); /* Adjust width and gap */
+  min-width: 250px; /* Ensures the card doesn't get too small on very small screens */
+  margin: 8px;
+}
+
+
+.chart-wrapper {
+  
+  margin-left: 20%;
+  margin-right: 5%;
+  max-width: 800px; /* Set a max-width to ensure it doesn't get too wide */
+  height: 55vh; /* Set the desired height */
+  background-color: #171717;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
