@@ -7,8 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-
- 
+  height: auto;
+  width: auto;
 }
 
 code {
@@ -21,5 +21,9 @@ code {
   min-height: 100%;
   background-color: black;
 }
-
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
 
