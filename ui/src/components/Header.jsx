@@ -4,19 +4,19 @@ import { Button } from 'react-bootstrap'
 function Header() {
     return (
         <>
-         <div>
-            <div style={{display:"block"}}>
-                <h3 style={{ color: "white", float:"left",display: "inline-block" }}>
-                    Hello,<span style={{ color: "#a6cb4b", }}>Brooklyn Simmons</span>
-                </h3>
-                <Button style={{ backgroundColor: "#77f534",float:"right" }}>Start Trading</Button>
+         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div>
+                    <h3 style={{ color: "white" }}>
+                        Hello,<span style={{ color: "#a6cb4b" }}> Brooklyn Simmons</span>
+                    </h3>
+                    <h5 style={{ color: "white" }}>
+                        Welcome to <span style={{ color: "#a6cb4b" }}>Spot Trading</span>
+                    </h5>
+                </div>
+                <div>
+                    <Button style={{ backgroundColor: "#77f534" }}>Start Trading</Button>
+                </div>
             </div>
-            <div >
-                <h5 style={{ color: "white", textAlign: "left" }}>
-                    Welcome to <span style={{ color: "#a6cb4b" }}>Spot Trading</span>
-                </h5>
-            </div>
-        </div>
         </>
     )
 }

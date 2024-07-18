@@ -95,3 +95,6 @@
   padding: 20px;
   margin-left: 200px; /* Adjust margin to accommodate the sidenav */
 }
+.iconClicked:hover{
+  color: #77f534;
+}
