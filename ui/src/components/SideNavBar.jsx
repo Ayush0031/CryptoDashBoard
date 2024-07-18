@@ -53,9 +53,7 @@ const SideNavBar = () => {
               target="_blank" className='iconClicked'
               activeClassName="activeClicked"
             >
-              <CDBSidebarMenuItem icon="exclamation-circle" className='iconClicked'>
-                404 page
-              </CDBSidebarMenuItem>
+              
             </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>
@@ -63,12 +61,18 @@ const SideNavBar = () => {
         <CDBSidebarFooter style={{ textAlign: 'center' }}>
           <div
             style={{
-              padding: '20px 5px',
+              marginTop:"5px",
+              padding:"5px",
+              borderRadius:"10px",
+              backgroundColor:"#333333"
             }}
           >
             <div>
-              <h6>Brooklyn Simmons</h6>
-              <p>brooklyn@simmons.com</p>
+            <CDBSidebarMenuItem icon="user" className='iconClicked' style={{marginLeft:"0px"}}>
+            <h6>Brooklyn Simmons</h6>
+            <p>brooklyn@simmons.com</p>
+              </CDBSidebarMenuItem>
+              
             </div>
            
           </div>

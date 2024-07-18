@@ -11,7 +11,7 @@ const Home = () => {
     <div className="col-auto">
       <SideNavBar/>
     </div>
-      <div className='col-lg-8 col-md-3' style={{backgroundColor:"black"}}>
+      <div className='col-lg-8 col-md-3' style={{backgroundColor:"black",width:"auto"}}>
         <Header className='col-sm-2'/>
         <Chart/>
         <Cards/>
