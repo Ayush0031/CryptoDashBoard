@@ -21,9 +21,4 @@ code {
   min-height: 100%;
   background-color: black;
 }
-@media (min-width: 768px) {
-  body {
-    overflow: hidden;
-  }
-}
 

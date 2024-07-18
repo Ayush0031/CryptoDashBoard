@@ -99,3 +99,8 @@
 .iconClicked:hover{
   color: #77f534;
 }
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}

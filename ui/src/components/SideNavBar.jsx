@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaHome } from "react-icons/fa";
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -23,8 +24,8 @@ const SideNavBar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem className='iconClicked' icon='fa-solid fa-house'>Home</CDBSidebarMenuItem>
+          <NavLink exact to="/" activeClassName="activeClicked">
+              <CDBSidebarMenuItem className='iconClicked' icon='fa-solid fa-hotel'>Home</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/tables" activeClassName="activeClicked">
               <CDBSidebarMenuItem className='iconClicked' icon="fa-regular fa-building">Organisation</CDBSidebarMenuItem>
