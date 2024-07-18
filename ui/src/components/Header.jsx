@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap'
 function Header() {
     return (
         <>
-         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+         <div style={{ width:"auto", margin:"auto",backgroundColor:"black", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <div>
                     <h3 style={{ color: "white" }}>
                         Hello,<span style={{ color: "#a6cb4b" }}> Brooklyn Simmons</span>

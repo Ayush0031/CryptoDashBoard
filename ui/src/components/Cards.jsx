@@ -17,7 +17,7 @@ function Cards() {
        
     })
   return (
-    <Container>
+    <Container style={{height:"auto",backgroundColor:"black"}}>
       <Row>
         {price.map((x) => (
           <Col xs={12} lg={4}>

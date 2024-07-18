@@ -66,7 +66,11 @@ const SideNavBar = () => {
               padding: '20px 5px',
             }}
           >
-            Sidebar Footer
+            <div>
+              <h6>Brooklyn Simmons</h6>
+              <p>brooklyn@simmons.com</p>
+            </div>
+           
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
